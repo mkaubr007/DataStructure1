@@ -16,4 +16,16 @@ public class Queue {
         top = linkedList.push(56);
         linkedList.print();
     }
+
+    public void dequeue() {
+        System.out.println("Before");
+        appendNode();
+        Node temp = top;
+        while (temp != null) {
+            linkedList.pop();
+            temp = temp.next;
+        }
+        System.out.println("After");
+        linkedList.print();
+    }
 }
