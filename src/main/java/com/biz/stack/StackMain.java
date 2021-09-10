@@ -7,7 +7,7 @@ public class StackMain {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter 1 to add element");
         System.out.println("Enter 2 to get peek element");
-
+        System.out.println("Enter 3 to delete all  element");
 
         Stack stack=new Stack();
 
@@ -18,6 +18,8 @@ public class StackMain {
             case 2:
                 stack.peek();
                 break;
+            case 3:
+                stack.pop();
         }
     }
 }
