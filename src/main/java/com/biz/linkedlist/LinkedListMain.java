@@ -10,6 +10,7 @@ public class LinkedListMain {
         System.out.println("Enter 1 to add element at the start");
         System.out.println("Enter 2 to add element at the end");
         System.out.println("Enter 3 to add element at the Middle");
+        System.out.println("Enter 4 to delete first element");
 
         switch (sc.nextInt()){
             case 1:
@@ -20,6 +21,9 @@ public class LinkedListMain {
                 break;
             case 3:
                 Operations.insertNodeInBetween();
+                break;
+            case 4:
+                Operations.deleteFirstNode();
         }
     }
 }

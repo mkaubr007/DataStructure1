@@ -30,4 +30,11 @@ public class Operations {
         linkedList.print();
 
     }
+    public static void deleteFirstNode() {
+        LinkedList linkedList = addElementAtStart();
+        Node deletedNode = linkedList.pop();
+        System.out.println("Delete Node is" + deletedNode.data);
+        linkedList.print();
+
+    }
 }
