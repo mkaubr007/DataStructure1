@@ -9,6 +9,7 @@ public class LinkedListMain {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter 1 to add element at the start");
         System.out.println("Enter 2 to add element at the end");
+        System.out.println("Enter 3 to add element at the Middle");
 
         switch (sc.nextInt()){
             case 1:
@@ -16,6 +17,9 @@ public class LinkedListMain {
                 break;
             case 2:
                 Operations.addElementAtEnd();
+                break;
+            case 3:
+                Operations.insertNodeInBetween();
         }
     }
 }

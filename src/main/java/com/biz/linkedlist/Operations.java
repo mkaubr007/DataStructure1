@@ -16,9 +16,18 @@ public class Operations {
         linkedList.append(56);
         linkedList.append(30);
         linkedList.append(70);
+        linkedList.print();
+    }
 
+    public static void insertNodeInBetween() {
+        LinkedList linkedList = new LinkedList();
+        Node secondNode = linkedList.push(70);
+        Node firstNode = linkedList.push(56);
+
+        Node newNode = new Node(30);
+        linkedList.print();
+        linkedList.insertInBetween(firstNode, newNode);
         linkedList.print();
 
     }
-
 }
