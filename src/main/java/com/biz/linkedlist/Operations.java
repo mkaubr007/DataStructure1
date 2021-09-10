@@ -62,4 +62,19 @@ public class Operations {
         linkedList.print();
 
     }
+    public static void deleteNode() {
+        LinkedList linkedList = new LinkedList();
+        linkedList.push(70);
+        linkedList.push(40);
+        linkedList.push(30);
+        linkedList.push(56);
+        System.out.println("Before");
+        linkedList.print();
+        linkedList.deleteNode(40);
+        System.out.println("After");
+        linkedList.print();
+        int size = linkedList.size();
+        System.out.println("Linked size is " + size);
+
+    }
 }
