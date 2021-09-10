@@ -50,4 +50,16 @@ public class Operations {
         LinkedList linkedList = addElementAtStart();
         linkedList.searchNode(30);
     }
+    public static void insertNode() {
+        LinkedList linkedList = new LinkedList();
+        Node fourthNode = linkedList.push(70);
+        Node secondNode = linkedList.push(30);
+        Node firstNode = linkedList.push(56);
+
+        Node newNode = new Node(40);
+        linkedList.print();
+        linkedList.insertInBetween(secondNode, newNode);
+        linkedList.print();
+
+    }
 }

@@ -13,6 +13,7 @@ public class LinkedListMain {
         System.out.println("Enter 4 to delete first element");
         System.out.println("Enter 5 to delete last element");
         System.out.println("Enter 6 to find node base on value");
+        System.out.println("Enter 7 to insert node in Between");
 
         switch (sc.nextInt()){
             case 1:
@@ -32,6 +33,9 @@ public class LinkedListMain {
                 break;
             case 6:
                 Operations.findNodeBaseOnValue();
+                break;
+            case 7:
+                Operations.insertNode();
         }
     }
 }
