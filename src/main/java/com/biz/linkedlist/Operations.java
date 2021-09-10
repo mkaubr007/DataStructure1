@@ -1,10 +1,8 @@
 package com.biz.linkedlist;
 
 public class Operations {
-    public static void main(String[] args) {
-        Operations.addElement();
-    }
-    public static LinkedList addElement() {
+
+    public static LinkedList addElementAtStart() {
         LinkedList linkedList = new LinkedList();
         linkedList.push(70);
         linkedList.push(30);
