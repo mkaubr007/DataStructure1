@@ -10,7 +10,7 @@ public class Queue {
     public Queue(){
         this.linkedList=new LinkedList();
     }
-    public void push() {
+    public void appendNode() {
         linkedList.push(70);
         linkedList.push(30);
         top = linkedList.push(56);

@@ -1,5 +1,4 @@
 package com.biz.queue;
-
 import java.util.Scanner;
 
 public class QueueMain {
@@ -7,11 +6,10 @@ public class QueueMain {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter 1 to add element");
 
-
         Queue queue=new Queue();
         switch (sc.nextInt()){
             case 1:
-                queue.push();
+                queue.appendNode();
                 break;
         }
     }
